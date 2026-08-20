@@ -27,8 +27,8 @@ int main() {
         printf("Cedulas de 10 reais: 0\n");
     }
 
-    if (valor % 50 % 20 % 10 >= 5) {
-        printf("%d cedulas de 5 reais\n", (valor % 50 % 20 % 10) / 5);
+    if (c % 50 % 20 % 10 >= 5) {
+        printf("%d cedulas de 5 reais\n", (c % 50 % 20 % 10) / 5);
     } else {
         printf("Cedulas de 5 reais: 0\n");
     }
